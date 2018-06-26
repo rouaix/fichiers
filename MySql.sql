@@ -1,6 +1,7 @@
 Requête 1
 use webacademie;
-show tables
+select * from information_schema.tables
+where table_type='base table' and table_schema='webacademie'
 
 Requête 2
 describe webacademie.film
